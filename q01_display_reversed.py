@@ -1,2 +1,6 @@
-number = input("Enter integer: ")
-print(number[::-1])
+def reverse_int(n):
+    n = str(n)
+    print(n[::-1])
+
+
+reverse_int(1234)
